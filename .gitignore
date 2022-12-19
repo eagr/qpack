@@ -1,0 +1,22 @@
+# Cargo
+Cargo.lock
+debug/
+target/
+
+# rustfmt
+**/*.rs.bk
+
+# IDE
+.idea
+.vscode
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+._*

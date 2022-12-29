@@ -27,6 +27,11 @@ impl Context {
         self.root.put_str(&mut out);
         out.push_str("];\n");
 
+        // decoding flags
+        out.push_str("\npub const DECODE_MAY_FINISH: usize = 1 << 12;\n");
+        out.push_str("\npub const DECODE_IS_SYM: usize = 1 << 13;\n");
+        out.push_str("\npub const DECODE_ERROR: usize = 1 << 14;\n");
+
         out
     }
 }

@@ -5128,3 +5128,9 @@ pub const DECODE_TABLE: [[(usize, u8); 16]; 256] = [
         (0x5000, 0),
     ],
 ];
+
+pub const DECODE_MAY_FINISH: usize = 1 << 12;
+
+pub const DECODE_IS_SYM: usize = 1 << 13;
+
+pub const DECODE_ERROR: usize = 1 << 14;

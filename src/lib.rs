@@ -1,3 +1,5 @@
+mod decoder;
+mod encoder;
 mod field;
 mod huffman;
 mod static_table;
